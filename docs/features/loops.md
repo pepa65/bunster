@@ -78,7 +78,7 @@ baz
 The format looks similar to above:
 
 ```sh
-for NAME in arguments; do
+for NAME in $arguments; do
 	consequent-commands
 done
 ```
